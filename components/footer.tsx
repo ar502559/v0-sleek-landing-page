@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Facebook, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react"
+import { Linkedin, Mail, Phone, MapPin, MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
@@ -16,7 +16,7 @@ export function Footer() {
                 alt="Pro-Inspect Solutions Logo"
                 width={120}
                 height={120}
-                className="h-16 w-auto object-contain"
+                className="h-12 w-auto object-contain"
               />
               <span className="text-lg font-bold">Pro-Inspect Solutions</span>
             </div>
@@ -26,21 +26,22 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <Button size="icon" variant="secondary" asChild>
-                <Link href="#" aria-label="Facebook">
-                  <Facebook className="h-4 w-4" />
-                </Link>
-              </Button>
-              <Button size="icon" variant="secondary" asChild>
-                <Link href="#" aria-label="LinkedIn">
+                <Link
+                  href="https://www.linkedin.com/in/pro-inspect-solutions-5127a0382/?originalSubdomain=sa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
                   <Linkedin className="h-4 w-4" />
                 </Link>
               </Button>
               <Button size="icon" variant="secondary" asChild>
-                <Link href="#" aria-label="Twitter">
-                  <Twitter className="h-4 w-4" />
+                <Link href="https://wa.me/8086900318" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                  <MessageCircle className="h-4 w-4" />
                 </Link>
               </Button>
             </div>
+            {/* </CHANGE> */}
           </div>
 
           <div>
@@ -79,17 +80,24 @@ export function Footer() {
             <ul className="space-y-3 text-sm opacity-90">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
-                <span>123 Industrial Avenue, Training District, City</span>
+                <span>Pro-Inspect Solutions, Kurupath, Mannarkkad, Palakkad, Kerala, India</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <div className="flex flex-col">
+                  <span>India: +91 8086900318</span>
+                  <span>Saudi Arabia: +966 504429082</span>
+                </div>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0" />
-                <span>info@pro-inspect.com</span>
+                <div className="flex flex-col">
+                  <span>info@proinspectsolutions.org</span>
+                  <span>proinspectsolutions@gmail.com</span>
+                </div>
               </li>
             </ul>
+            {/* </CHANGE> */}
           </div>
 
           <div>
