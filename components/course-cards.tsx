@@ -7,7 +7,7 @@ import Link from "next/link"
 export function CourseCards() {
   const courses = [
     {
-      title: "testWelding Inspector Certification (CWI)",
+      title: "Welding Inspector Certification (CWI)",
       category: "Steel & Fabrication",
       description:
         "Comprehensive training for AWS Certified Welding Inspector certification. Learn inspection techniques, codes, and standards.",
