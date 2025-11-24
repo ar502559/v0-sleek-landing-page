@@ -20,7 +20,6 @@ export function Footer() {
               />
               <span className="text-lg font-bold">Pro-Inspect Solutions</span>
             </div>
-            {/* </CHANGE> */}
             <p className="text-sm opacity-90 leading-relaxed mb-4">
               Leading provider of QA/QC and NDT training and certification for industrial professionals worldwide.
             </p>
@@ -41,7 +40,6 @@ export function Footer() {
                 </Link>
               </Button>
             </div>
-            {/* </CHANGE> */}
           </div>
 
           <div>
@@ -80,7 +78,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm opacity-90">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
-                <span>Pro-Inspect Solutions, Kurupath, Mannarkkad, Palakkad, Kerala, India</span>
+                <span>Pro-Inspect Solutions, Mannarkkad, Palakkad, Kerala, India</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0" />
@@ -97,7 +95,6 @@ export function Footer() {
                 </div>
               </li>
             </ul>
-            {/* </CHANGE> */}
           </div>
 
           <div>

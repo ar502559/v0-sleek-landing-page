@@ -82,11 +82,11 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    123 Industrial Avenue
+                    Pro-Inspect Solutions
                     <br />
-                    Training District
+                    Mannarkkad
                     <br />
-                    City, State 12345
+                    Palakkad, Kerala, India
                   </p>
                 </CardContent>
               </Card>
@@ -99,8 +99,8 @@ export default function ContactPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
-                  <p className="text-sm text-muted-foreground">+1 (555) 987-6543</p>
+                  <p className="text-sm text-muted-foreground">India: +91 8086900318</p>
+                  <p className="text-sm text-muted-foreground">Saudi Arabia: +966 504429082</p>
                 </CardContent>
               </Card>
 
@@ -112,8 +112,8 @@ export default function ContactPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">info@ndtinstitute.com</p>
-                  <p className="text-sm text-muted-foreground">admissions@ndtinstitute.com</p>
+                  <p className="text-sm text-muted-foreground">info@proinspectsolutions.org</p>
+                  <p className="text-sm text-muted-foreground">proinspectsolutions@gmail.com</p>
                 </CardContent>
               </Card>
 
